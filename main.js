@@ -6,7 +6,7 @@ function createWindow() {
     height: 400,
     x: 1200,
     y: 200,
-    frame: false,
+    // frame: false,
     title: "Electron js",
     autoHideMenuBar: true,
     alwaysOnTop: true,
