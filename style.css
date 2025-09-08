@@ -1,9 +1,21 @@
 body {
   background-color: #5cb58a;
   font-family: Arial, sans-serif;
+  user-select: none;
+  -webkit-app-region: drag;
 }
 h1 {
   color: #ca6060;
   text-align: center;
   margin-top: 100px;
+}
+input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ca6060;
+  border-radius: 5px;
+  -webkit-app-region: no-drag;
+  width: 80%;
 }
